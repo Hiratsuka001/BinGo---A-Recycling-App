@@ -15,17 +15,6 @@ The landing page effectively showcases the app's primary value propositions:
 
 ---
 
-## 🛠️ Project Structure
-
-Your repository consists of the following structure:
-*   `index.html` — The core entry point containing all semantic markup and embedded responsive styling.
-*   `hero.png` — Visual graphic showcasing the primary app interface mockup.
-*   `features.png` — Visual asset illustrating specific in-app capabilities.
-*   `snap.png`, `choose.png`, `secure.png`, `claim.png` — Process icons depicting the 4-step user workflow.
-*   `sdg9.png`, `sdg11.png`, `sdg12.png`, `sdg14.png` — SDG alignment identifiers showing commitment to global sustainability targets.
-
----
-
 ## 💻 Tech Stack & Customizations
 
 *   **Markup:** Semantic HTML5 (`<header>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`).
@@ -34,16 +23,3 @@ Your repository consists of the following structure:
 *   **Typography:** Dynamically embedded Google Fonts ("Inter").
 
 ---
-
-## 🎨 How to Edit & Customize
-
-### 1. Modifying the Theme / Colors
-The site relies heavily on CSS variables declared in the `:root` pseudo-class. Open `index.html` and look for the following block to seamlessly adjust the color palette or curves:
-```css
-:root {
-  --bg: #f5fbf6;
-  --text: #12311f;
-  --green-dark: #0f4a2d;
-  --green-bright: #2fb86d;
-  /* Adjust border-radius and shadows globally here */
-}
